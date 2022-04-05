@@ -5,91 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>libros</title>
 
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Laila&display=swap" rel="stylesheet">
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">    
+<body class="bg-gray-800 h-100 text-center text-white">    
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-4">
-            <div>
-            <h3 class="float-md-start mb-0">Mis hobbies</h3>
-            <nav class="nav nav-masthead justify-content-center float-md-end">
-                <a href="index.html" class="nav-link">Inicio</a>
-            </nav>
-            </div>
-        </header>
+  <div class="cover-container w-100 h-100 p-3 mx-auto">
+    <header class="mb-3">
+        <div class="grid-cols-2 grid">
+          <h3 class="text-2xl mb-0 text-left">Mis hobbies</h3>
+          <nav class="nav-masthead text-right px-3">
+              <a href="index.html" class="nav-link text-right object-right">Inicio</a>
+          </nav>
+        </div>
+      </header>
         <h2>Algunos de mis libros favoritos son:</h2>
-        <div class="accordion text-white" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Don Quijote de la Mancha - Miguel de Cervantes
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body custom-acord">
-                    Narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha.
-                </div>
-              </div>
+        <div class="text-white my-2 mx-4">
+            <div class="border border-collapse">
+              <h3 class="text-black bg-blue-400" id="headingOne">                
+                  Don Quijote de la Mancha - Miguel de Cervantes                
+              </h3>              
+              <div class="px-3 py-2 bg-gray-600">
+                  Narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha.
+              </div>              
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading2">
-                <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                  1984 - George Orwell
-                </button>
-              </h2>
-              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                <div class="accordion-body custom-acord">
-                    Novela política de ficción distópica. La novela popularizó los conceptos del omnipresente y vigilante Gran Hermano o Hermano Mayor, de la notoria habitación 101, de la ubicua policía del Pensamiento y de la neolengua, adaptación del idioma inglés en la que se reduce y se transforma el léxico con fines represivos, basándose en el principio de que lo que no forma parte de la lengua, no puede ser pensado.
-                </div>
-              </div>
+            <div class="border border-collapse">
+              <h3 class="text-black bg-blue-400" id="heading2">                
+                  1984 - George Orwell                
+              </h3>              
+              <div class="px-3 py-2 bg-gray-600">
+                  Novela política de ficción distópica. La novela popularizó los conceptos del omnipresente y vigilante Gran Hermano o Hermano Mayor, de la notoria habitación 101, de la ubicua policía del Pensamiento y de la neolengua, adaptación del idioma inglés en la que se reduce y se transforma el léxico con fines represivos, basándose en el principio de que lo que no forma parte de la lengua, no puede ser pensado.
+              </div>              
             </div>  
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="heading3">
-                  <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                    Saga Canción de hielo y fuego - George R.R. Martin
-                  </button>
-                </h2>
-                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-                  <div class="accordion-body custom-acord">
-                    La historia de Canción de hielo y fuego se sitúa en un mundo ficticio medieval, principalmente en un continente llamado Poniente pero también en un vasto continente oriental, conocido como Essos. La mayor parte de los personajes son humanos, pero a medida que la serie avanza aparecen otras razas. Hay tres líneas argumentales en la serie: la crónica de la guerra civil dinástica por el control de Poniente entre varias familias nobles; la creciente amenaza de los Otros y los salvajes, apenas contenida por un inmenso muro de hielo que protege el norte de Poniente; y el viaje de Daenerys Targaryen, la hija exiliada del rey que fue asesinado en otra guerra civil quince años antes del comienzo de la serie, quien busca regresar a Poniente a reclamar sus derechos. Estas tres historias interactúan entre sí y son extremadamente codependientes.
-                  </div>
-                </div>
+            <div class="border border-collapse">
+                <h3 class="text-black bg-blue-400" id="heading3">                  
+                    Saga Canción de hielo y fuego - George R.R. Martin                  
+                </h3>                
+                <div class="px-3 py-2 bg-gray-600">
+                  La historia de Canción de hielo y fuego se sitúa en un mundo ficticio medieval, principalmente en un continente llamado Poniente pero también en un vasto continente oriental, conocido como Essos. La mayor parte de los personajes son humanos, pero a medida que la serie avanza aparecen otras razas. Hay tres líneas argumentales en la serie: la crónica de la guerra civil dinástica por el control de Poniente entre varias familias nobles; la creciente amenaza de los Otros y los salvajes, apenas contenida por un inmenso muro de hielo que protege el norte de Poniente; y el viaje de Daenerys Targaryen, la hija exiliada del rey que fue asesinado en otra guerra civil quince años antes del comienzo de la serie, quien busca regresar a Poniente a reclamar sus derechos. Estas tres historias interactúan entre sí y son extremadamente codependientes.
+                </div>                
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="heading4">
-                  <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                    El extranjero - Albert Camus
-                  </button>
-                </h2>
-                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-                  <div class="accordion-body custom-acord">
-                    Novela publicada en 1942 que suele asociarse a la filosofía del absurdo y al existencialismo, aunque Camus siempre se distanció de esta última etiqueta. El protagonista, Meursault, es un francés argelino indiferente a la realidad por resultarle absurda e inabordable. El progreso tecnológico le ha privado de la participación en las decisiones colectivas y le ha convertido en «extranjero» dentro de lo que debería ser su propio entorno.
-                  </div>
-                </div>
+            <div class="border border-collapse">
+                <h3 class="text-black bg-blue-400" id="heading4">                  
+                    El extranjero - Albert Camus                  
+                </h3>                
+                <div class="px-3 py-2 bg-gray-600">
+                  Novela publicada en 1942 que suele asociarse a la filosofía del absurdo y al existencialismo, aunque Camus siempre se distanció de esta última etiqueta. El protagonista, Meursault, es un francés argelino indiferente a la realidad por resultarle absurda e inabordable. El progreso tecnológico le ha privado de la participación en las decisiones colectivas y le ha convertido en «extranjero» dentro de lo que debería ser su propio entorno.
+                </div>                
             </div>   
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="heading5">
-                  <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                    ¿Sueñan los androides con ovejas eléctricas? - Philip K. Dick
-                  </button>
-                </h2>
-                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
-                  <div class="accordion-body custom-acord">
-                    Novela corta de ciencia ficción del subgénero ciberpunk adaptada libremente por Ridley Scott en la película Blade Runner de 1982. La historia se sitúa en un mundo lleno de polvo radiactivo después de una guerra nuclear que terminó matando a la mayoría de los animales, llevando a que la gente tenga animales eléctricos. El protagonista es Rick Deckard, un experto cazador de androides renegados, tarea a la que él mismo se refiere como «retirar». En la historia, tendrá que retirar a un grupo de androides de última generación, modelo Nexus-6, que tienen como peculiaridad ser casi idénticos al ser humano y que han llegado hasta la Tierra huyendo desde una colonia espacial debido a las terribles condiciones a las que estaban sometidos.
-                  </div>
-                </div>
+            <div class="border border-collapse">
+                <h3 class="text-black bg-blue-400" id="heading5">                  
+                    ¿Sueñan los androides con ovejas eléctricas? - Philip K. Dick                  
+                </h3>                
+                <div class="px-3 py-2 bg-gray-600">
+                  Novela corta de ciencia ficción del subgénero ciberpunk adaptada libremente por Ridley Scott en la película Blade Runner de 1982. La historia se sitúa en un mundo lleno de polvo radiactivo después de una guerra nuclear que terminó matando a la mayoría de los animales, llevando a que la gente tenga animales eléctricos. El protagonista es Rick Deckard, un experto cazador de androides renegados, tarea a la que él mismo se refiere como «retirar». En la historia, tendrá que retirar a un grupo de androides de última generación, modelo Nexus-6, que tienen como peculiaridad ser casi idénticos al ser humano y que han llegado hasta la Tierra huyendo desde una colonia espacial debido a las terribles condiciones a las que estaban sometidos.
+                </div>                
             </div>                
         </div>
     </div>
-
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 </body>
 </html>

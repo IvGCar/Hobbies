@@ -21,6 +21,7 @@ h4 {
 h2 {
   font-size: 1.5rem;
 }
+
 p{
   color: #bbbbbb;
 }
@@ -31,14 +32,6 @@ p{
 
 .card-style > p{
   color: #000000;
-}
-
-.customCarousel{
-  width: 60%;
-}
-
-.custom-acord{
-  background-color: #313131;
 }
 
 .imgSize{
